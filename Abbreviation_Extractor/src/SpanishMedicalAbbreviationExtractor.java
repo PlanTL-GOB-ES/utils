@@ -1,4 +1,4 @@
-package abbreviation_extractors;
+
 
 import java.text.Collator;
 import java.util.*;
@@ -52,12 +52,12 @@ import java.util.*;
  * 
  * @updated 07/20/16 by Marti Hearst to include BSD License.
  */
-public class AbbreviationExtractor {
+public class SpanishMedicalAbbreviationExtractor {
 
 	private String sentence;
 	private Map<String, Integer> geonames;
 	
-	public AbbreviationExtractor(String sentence, Map<String, Integer> geonames)
+	public SpanishMedicalAbbreviationExtractor(String sentence, Map<String, Integer> geonames)
 	{
 		this.sentence = sentence;
 		this.geonames = geonames;
@@ -286,33 +286,6 @@ public class AbbreviationExtractor {
 		}
 		//str.charAt(index)
 		return true;
-	}
-	
-	private boolean testFirstUpperNextLowers(String str)
-	{
-		boolean firstUpperNextLowers = false;
-		
-		char first = str.charAt(0);
-		if (first >= 65 && first <= 90)
-		{
-			firstUpperNextLowers = true;
-		}
-		
-		if (firstUpperNextLowers)
-		{
-			for(int i=1; i<str.length(); i++){
-				char c = str.charAt(i);
-				if(c >= 97 && c <= 122) {
-					firstUpperNextLowers = true;
-				}
-			}
-			
-			return firstUpperNextLowers;
-		}
-		else
-		{
-			return firstUpperNextLowers;
-		}		
 	}
 	
 	private boolean isValidShortForm(String str) 

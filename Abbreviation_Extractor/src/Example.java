@@ -1,7 +1,6 @@
-package abbreviation_extractors;
+
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Enumeration;
@@ -20,7 +19,7 @@ public class Example {
 		Map<String, Integer> geonames = readGeonamesFile();
 		
 		// Extract all abbreviation from the input sentence
-		AbbreviationExtractor SH = new AbbreviationExtractor(sentence, geonames);
+		SpanishMedicalAbbreviationExtractor SH = new SpanishMedicalAbbreviationExtractor(sentence, geonames);
 		Map<String, String> pairs = SH.extractPairs();
 		
 		Iterator<String> iter = pairs.keySet().iterator();
@@ -75,6 +74,7 @@ public class Example {
 	        }
 	        
 	    }
+	    zipFile.close();
 		return geonames;
 	}
 }
