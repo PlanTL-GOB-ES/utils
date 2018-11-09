@@ -52,7 +52,8 @@ $ java -jar AnnotatorJS_2_Brat.jar URIs_FILE
 ## Example
 
 <pre>
-$ java -jar AnnotatorJS_2_Brat.jar ~/Annotations/URIs.txt ~/Annotations/html_files http://www.my-website.com/annotations-here/annotator-store ~/Annotations/Brat
+$ java -jar AnnotatorJS_2_Brat.jar ~/Annotations/URIs.txt ~/Annotations/html_files
+       http://www.my-website.com/annotations-here/annotator-store ~/Annotations/Brat
 </pre>
 
 
