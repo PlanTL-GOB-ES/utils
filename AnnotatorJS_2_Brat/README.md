@@ -20,7 +20,12 @@ The script needs the Json-simple library to extract the information from Json an
 src/
   The script's source code.
   - AnnotatorJS_2_Brat.java: the main class and all functions to extract annotated data.
-  - Mention.java: information we want to extract from each annotated mention. By default, each object stores the following data: mention string (quote), category, start and end offsets, note, URI where the mention can be found, and the paragraph of the text where this mention was annotated. AnnotatorJS stores extra information, for example, the time and day the mention was annotated. In case you want to extract more data, add the new parameters into this file.
+  - Mention.java: information we want to extract from each annotated mention.
+  By default, each object stores the following data: mention string (quote), category,
+  start and end offsets, note, URI where the mention can be found, and the paragraph
+  of the text where this mention was annotated. AnnotatorJS stores extra information,
+  for example, the time and day the mention was annotated.
+  In case you want to extract more data, add the new parameters into this file.
 
 exec/
   The executable to extract the annotations.
@@ -40,7 +45,8 @@ The executable file "AnnotatorJS_2_Brat.jar" is the program you need to convert 
 To execute the script, type the following command in your terminal:
 
 <pre>
-$ java -jar AnnotatorJS_2_Brat.jar URIs_FILE HTML_FILES_DIRECTORY WEBSITE_URL ANN_OUTPUT_DIRECTORY
+$ java -jar AnnotatorJS_2_Brat.jar URIs_FILE
+       HTML_FILES_DIRECTORY WEBSITE_URL ANN_OUTPUT_DIRECTORY
 </pre>
 
 ## Example
