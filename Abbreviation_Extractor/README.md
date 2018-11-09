@@ -9,9 +9,9 @@ We use a modified version of the algorithm developed by Schwartz & Hearst[1], ad
 
 ## Prerequisites
 
-Some of the detected potential abbreviations could be geophysical locations' names. In order to filter these abbreviations and discard them, the script makes use of the GeoNames ontology.
+This software has been compiled with Java SE 1.8 and it should work with recent versions. You can download Java from the following website: https://www.java.com/en/download
 
-GeoNames is a geographical database which covers over eleven million placements. GeoNames is distributed under Creative Commons BY-4.0 license. It is available for download free or charge: http://www.geonames.org
+Some of the detected potential abbreviations could be geophysical locations' names. In order to filter these abbreviations and discard them, the script makes use of the GeoNames ontology. GeoNames is a geographical database which covers over eleven million placements. GeoNames is distributed under Creative Commons BY-4.0 license. It is available for download free or charge: http://www.geonames.org
 
 ## Directory structure
 
