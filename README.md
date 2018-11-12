@@ -2,25 +2,28 @@
 
 ## Introduction
 
-This repository contains different script we have been using internally, and consider that could be useful for researchers and developers.
+This repository contains different scripts that are used internally, but they could be useful for researchers and developers.
 
-All the scripts here are independent from each other. We recommend interested users to clone the entire repository, and remove all those directories they are not interested in.
+All the scripts included in this repository are independent from each other. We recommend interested users to clone the entire repository and to remove those directories they are not interested in.
 
 ## Directory structure
 
 Each directory contains an specific script for some specific actions. Here's a brief explanation for each tool:
 
-### Abbreviation_Extractor
+#### Abbreviation_Extractor
 
-This script is used to extract abbreviations and definitions from biomedical texts written in Spanish, by detecting abbreviations and their potential definitions explicitly mentioned in the same sentence.
+This script is used to extract abbreviations and definitions from biomedical texts written in Spanish, by detecting 
+abbreviations and their potential definitions explicitly mentioned in the same sentence.
 
 This script is used internally at the AbreMES-X project (https://github.com/PlanTL/AbreMES-X) to generate the Spanish Medical Abbreviation DataBase (https://github.com/PlanTL/AbreMES-DB).
 
-### AnnotatorJS_2_Brat
 
-This script extracts the annotations made using the AnnotatorJS library and transforms them into Brat format. AnnotatorJS' annotations are stored in Json format, and the converter builds ANN files from them.
+#### AnnotatorJS_2_Brat
 
-## Contacts (including the names of the scripts they are working on)
+This script extracts the annotations made using the AnnotatorJS library and converts them into Brat format. AnnotatorJS' 
+annotations are stored in Json format and the converter builds ANN files from them.
+
+## Contact (including the names of the scripts they are working on)
 
 Ander Intxaurrondo (ander.intxaurrondo@bsc.es)
 - Abbreviation_Extractor
