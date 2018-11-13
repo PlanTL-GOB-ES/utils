@@ -23,7 +23,7 @@ This script is used internally at the AbreMES-X project (https://github.com/Plan
 This script extracts the annotations made using the AnnotatorJS library and converts them into Brat format. AnnotatorJS' 
 annotations are stored in Json format and the converter builds ANN files from them.
 
-## Contact (including the names of the scripts they are working on)
+## Contact
 
 PlanTL.Sanidad@bsc.es
 
