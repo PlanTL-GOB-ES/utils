@@ -27,7 +27,7 @@ _src_ contains the following files:
 
 ## Contact
 
-Ander Intxaurrondo (ander.intxaurrondo@bsc.es)
+PlanTL.Sanidad@bsc.es
 
 ## License
 
