@@ -59,7 +59,7 @@ $ java -jar AnnotatorJS_2_Brat.jar ~/Annotations/URIs.txt ~/Annotations/html_fil
 
 ## Contact
 
-Ander Intxaurrondo (ander.intxaurrondo@bsc.es)
+PlanTL.Sanidad@bsc.es
 
 ## License
 
