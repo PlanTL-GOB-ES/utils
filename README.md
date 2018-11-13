@@ -25,9 +25,7 @@ annotations are stored in Json format and the converter builds ANN files from th
 
 ## Contact (including the names of the scripts they are working on)
 
-Ander Intxaurrondo (ander.intxaurrondo@bsc.es)
-- Abbreviation_Extractor
-- AnnotatorJS_2_Brat
+PlanTL.Sanidad@bsc.es
 
 ## License
 
