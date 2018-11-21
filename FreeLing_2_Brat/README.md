@@ -21,7 +21,7 @@ Script to convert FreeLing tabular output format into BRAT standoff format.
 
 The script requires Python 3 installed on your system.
 
-### Convertir de formato FreeLing a BRAT
+### To convert FreeLing into BRAT
 
 To convert a set of files labeled by SPACCC_POS-TAGGER into BRAT standoff format, follow the following steps:
 * Put all original files (with extension `.txt`) in a folder
