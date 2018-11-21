@@ -1,6 +1,6 @@
-# FreeLing-2-Brat
+# FreeLing_2_Brat
 
-Script to convert FreeLing3.1 tabular output format into BRAT standoff format, where only the Sentence Boundary Symbols are marked.
+Script to convert FreeLing tabular output format into BRAT standoff format.
 
 ## Directory structure
 * `ann/`: folder for temporary use of the script `Anotacion_a_BRAT.sh`
@@ -27,7 +27,7 @@ To convert a set of files labeled by SPACCC_POS-TAGGER into BRAT standoff format
 * Put all original files (with extension `.txt`) in a folder
 * Put all of their corresponding annotated files (with extension `.txt_tagged`) in another folder
 * Create an output folder
-* Run the `Anotacion_a_BRAT.sh` script by choosing the POINTS annotation level
+* Run the `Anotacion_a_BRAT.sh` script by choosing one of the three annotation level: `COMPLETO` for POS, `PUNTOS` for sentence splitting, or `TOKENS` for tokenization.
 
 ### Example:
 
