@@ -1,4 +1,4 @@
-# Script
+# FreeLing-2-Brat
 
 Script to convert FreeLing3.1 tabular output format into BRAT standoff format, where only the Sentence Boundary Symbols are marked.
 
