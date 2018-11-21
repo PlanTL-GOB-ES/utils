@@ -24,6 +24,10 @@ This script is used internally at the AbreMES-X project (https://github.com/Plan
 This script extracts the annotations made using the AnnotatorJS library and converts them into Brat format. AnnotatorJS' 
 annotations are stored in Json format and the converter builds ANN files from them.
 
+#### FreeLing_2_Brat
+
+This script converts FreeLing tabular output format into BRAT standoff format.
+
 ## Contact
 
 ander.intxaurrondo@bsc.es
