@@ -1,8 +1,9 @@
-# Misc
+# utils
 
 ## Introduction
 
-This repository contains different scripts that are used internally, but they could be useful for researchers and developers.
+This repository contains different scripts that provide utilities for various miscellaneous tasks that are used internally, but they 
+could be useful for researchers and developers.
 
 All the scripts included in this repository are independent from each other. We recommend interested users to clone the entire repository and to remove those directories they are not interested in.
 
@@ -25,7 +26,7 @@ annotations are stored in Json format and the converter builds ANN files from th
 
 ## Contact
 
-PlanTL.Sanidad@bsc.es
+ander.intxaurrondo@bsc.es
 
 ## License
 
