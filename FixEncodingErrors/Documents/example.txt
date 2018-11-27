@@ -1,0 +1,20 @@
+221	'	'
+222	'	'
+223	'	'
+224	'	'
+225	-	-
+226	-	-
+227	-	-
+
+ 
+
+
+
+
+
+##Para eliminar líneas menos de X
+for each in *.txt ; do  sed -r -i "/^.{,6}$/d" $each ; done
+
+
+
+for each in $(find . -type f) ; do sed -i "s/'/'/g" $each ; done
