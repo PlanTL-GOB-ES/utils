@@ -24,7 +24,7 @@ documents in this folder unless you specify another directory as parameter.
 ## Usage
 -----
 
-fixEncodingErrors.pl [options] 
+FixEncodingErrors.pl [options] 
 Options:
 <pre>
 --dir directory     Set root directory for your documents (Default: Documents/)
@@ -38,8 +38,8 @@ Options:
 
 The following are examples of this script:
 <pre>
-$ fixEncodingErrors.pl 
-$ fixEncodingErrors.pl --dir my_corpus
+$ FixEncodingErrors.pl 
+$ FixEncodingErrors.pl --dir my_corpus
 </pre>
 Note: Place all documents inside the given directory.
 
