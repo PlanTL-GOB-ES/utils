@@ -15,8 +15,8 @@ This script is used to extract abbreviations and definitions from biomedical tex
 abbreviations and their potential definitions explicitly mentioned in the same sentence.
 
 AnnotatorJS_2_Brat/
-This script extracts the annotations made using the AnnotatorJS library and converts them into Brat format. AnnotatorJS' 
-annotations are stored in Json format and the converter builds ANN files from them.
+This script extracts the annotations made using the AnnotatorJS library and converts them into Brat format. 
+AnnotatorJS' annotations are stored in Json format and the converter builds ANN files from them.
 
 FixEncodingErrors/
 This script fixes some of the most common encoding problems in corpora.
