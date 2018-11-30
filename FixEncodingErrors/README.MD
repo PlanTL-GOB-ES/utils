@@ -46,7 +46,7 @@ Note: Place all documents inside the given directory.
 ## Contact
 ------
 
-Text Mining Unit (PlanTL.Sanidad@gmail.com)
+Aitor Gonzalez-Agirre (aitor.gonzalez@bsc.es)
 
 
 ## License
