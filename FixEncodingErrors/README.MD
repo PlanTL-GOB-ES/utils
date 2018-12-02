@@ -1,10 +1,5 @@
 # FixEncodingErrors:  A script to fix common encoding errors in corpora.    
 
-
-##  Digital Object Identifier (DOI)
-
-
-
 ## Introduction
 ------------
 
