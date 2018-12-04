@@ -24,3 +24,7 @@ This script fixes some of the most common encoding problems in corpora.
 FreeLing_2_brat/
 This script converts FreeLing tabular output format into BRAT standoff format.
 </pre>
+
+## License
+
+See LICENSE file in each folder.
