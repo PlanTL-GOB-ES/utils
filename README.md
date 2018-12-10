@@ -19,7 +19,7 @@ This script extracts the annotations made using the AnnotatorJS library and conv
 AnnotatorJS' annotations are stored in Json format and the converter builds ANN files from them.
 
 FixEncodingErrors/
-This script fixes some of the most common encoding problems in corpora.
+This script makes use of the sed utility to fix some of the most common encoding problems in corpora.
 
 FreeLing_2_brat/
 This script converts FreeLing tabular output format into BRAT standoff format.

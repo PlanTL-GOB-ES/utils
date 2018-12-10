@@ -47,16 +47,21 @@ Read the manual, with examples.
 
 =head1 DESCRIPTION
 
-  This script fixes some of the most common encoding problems in corpora.
+  This script makes use of the sed utility to fix some of the most 
+  common encoding problems in corpora.
+
+  Warning: This script runs sed with -i option (in-place
+  substitution) and therefore using original files is not
+  recommended.
 
 =cut
 
 
 =head1 AUTHOR
 
- Text Mining Unit
+ Aitor Gonzalez-Agirre
  --
- PlanTL.Sanidad@gmail.com
+ aitor.gonzalez@bsc.es
 
 =cut
 
@@ -92,7 +97,7 @@ cleanCorpus();
 
 sub cleanCorpus {
     foreach my $encoding_error (keys %encoding_errors) {
-	system("for each in \$(find $ROOT_DIR -type f) ; do sed -i \"s/$encoding_error/$encoding_errors{$encoding_error}/g\" \$each ; done");
+	system("for each in \$(find $ROOT_DIR -type f) ; do echo \$each && sed -i \"s/$encoding_error/$encoding_errors{$encoding_error}/g\" \$each ; done");
     }
 }
 
