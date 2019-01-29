@@ -86,6 +86,7 @@ my $args = "";
 ## Define common errors and its correspondence.
 my %encoding_errors = ('\|\|\|' => '\'',
 		       '\|\|' => '-',
+		       ' ' => '',
 		       '' => ' ');
 
 ## Fix encoding errors in corpus
