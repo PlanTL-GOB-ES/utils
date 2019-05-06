@@ -4,7 +4,7 @@
 ------------
 
 
-This script makes use of the sed utility to fix some of the most common encoding problems in corpora.
+This script makes use of the sed utility to fix some of the most common encoding problems in corpora, such as the square shaped artifacts that appear when converting PDF files to text.
 
 Warning: This script runs sed with -i option (in-place substitution) and therefore using original files is not recommended.
 
